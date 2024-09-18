@@ -71,11 +71,17 @@ nav {
     height: 60px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     position: fixed;
     top: 0;
     left: 0;
     z-index: 1000;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 nav ul {
